@@ -412,7 +412,7 @@ def publish():
     driverinstance.get("https://ucoz.fr/wp-admin/")
     driverinstance.maximize_window()
     tryAndRetryFillByXpath(driverinstance, '//input[contains(@id, "user_login")]', str('collection-bag'))
-    tryAndRetryFillByXpath(driverinstance, '//input[contains(@id, "user_pass")]', str('63t7aK6nTo5LNEW'))
+    tryAndRetryFillByXpath(driverinstance, '//input[contains(@id, "user_pass")]', str(''))
     tryAndRetryClickXpath(driverinstance, '//input[contains(@id, "wp-submit")]')
     time.sleep(4)
     driverinstance.get("https://ucoz.fr/wp-admin/post.php?post=5322&action=edit")
