@@ -497,7 +497,7 @@ def add_meta(driver, name_input, value):
     time.sleep(6)
 
 def rediger_article(sujet, retries=5, delay=60):
-    openai.api_key = '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'  # Remplacez par votre clé API OpenAI
+    openai.api_key = 'sk-d'  # Remplacez par votre clé API OpenAI
 
     prompt = f"Bonjour, Peux-tu rédiger un article sur ce sujet: {sujet} s'il te plait.\n\n"
 
@@ -525,7 +525,7 @@ def rediger_article(sujet, retries=5, delay=60):
     return None
     
 def rediger_keyword(sujet, retries=5, delay=60):
-    openai.api_key = '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'  # Remplacez par votre clé API OpenAI
+    openai.api_key = 'sk-d'  # Remplacez par votre clé API OpenAI
 
     prompt = f"Bonjour, Peux-tu écrire 20 mots clés chacun séparé par une virgule sur ce sujet: {sujet} s'il te plait.\n\n"
 
