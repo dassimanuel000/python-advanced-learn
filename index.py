@@ -415,7 +415,7 @@ def publish():
     driverinstance.get("https://therapeute.net/wp-admin/")
     driverinstance.maximize_window()
     tryAndRetryFillByXpath(driverinstance, '//input[contains(@id, "user_login")]', str('therapeute.net'))
-    tryAndRetryFillByXpath(driverinstance, '//input[contains(@id, "user_pass")]', str('63t7aK6nTo5LNEW'))
+    tryAndRetryFillByXpath(driverinstance, '//input[contains(@id, "user_pass")]', str('sss'))
     tryAndRetryClickXpath(driverinstance, '//input[contains(@id, "wp-submit")]')
     time.sleep(4)
     
