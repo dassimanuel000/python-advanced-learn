@@ -480,7 +480,7 @@ def add_meta(driver, name_input, value):
 def rediger_article(sujet, ville, number):
     name_e = "E-"+str(number)+".txt"
     
-    openai.api_key = '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'  # Remplacez par votre clé API OpenAI
+    openai.api_key = 'sk-d'  # Remplacez par votre clé API OpenAI
 
     prompt = f"Bonjour, Peux-tu rédiger un article sur la profession {sujet} en mettant en avant {ville} et expliquer comment elle peut apporter son aide dans ce domaine.\n\n"
 
