@@ -429,7 +429,7 @@ def publish():
     driverinstance.get("https://life-community.fr/wp-admin/")
     # connection au compte wp-admin
     driverinstance.find_element(By.XPATH,'//*[@id="user_login"]').send_keys('CEOLIFEMARKET')
-    driverinstance.find_element(By.XPATH,'//*[@id="user_pass"]').send_keys('ppOxkyI&PQY!g^13ZGU69FxM')
+    driverinstance.find_element(By.XPATH,'//*[@id="user_pass"]').send_keys(' ')
     tryAndRetryClickXpath(driverinstance, '//input[contains(@id, "wp-submit")]')
     time.sleep(4)
     df = pd.read_excel(r'/opt/lampp/htdocs/avis-review.com/scrap/data.xlsx')
